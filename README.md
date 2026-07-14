@@ -33,7 +33,7 @@ python -m pip install notebook ipykernel
 
 - `train.csv`;
 - `test.csv`;
-- `sample_submission.csv`, если он используется при формировании результата;
+- `feature_description.csv`;
 - все необходимые JSON-файлы с гиперпараметрами;
 - `final.ipynb` и `xgb_best.ipynb`;
 - `requirements.txt`.
@@ -51,16 +51,16 @@ python -m pip install notebook ipykernel
 
 ## 7. Результат работы
 
-После выполнения всех ячеек в папке проекта должен появиться итоговый CSV-файл с прогнозами. Его точное название задаётся в последней части ноутбука, например:
+После выполнения всех ячеек в папке проекта должен появиться итоговый CSV-файл с прогнозами. Его точное название задаётся в последней части ноутбука, сейчас это:
 
 ```text
-submission.csv
+SUB_10.csv
 ```
 
 или
 
 ```text
-final_submission.csv
+submit_xgb_good.csv
 ```
 
 ## 8. Возможные ошибки
